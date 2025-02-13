@@ -1,17 +1,17 @@
 
-# Hand Gesture Recognition with LSTM Neural Network  
+#  Real-Time-Hand-Sign-Language-Detection
 
-# 📌 Project Overview  
+## 📌 Project Overview  
 This project implements a **hand gesture recognition system** using **OpenCV, MediaPipe, and an LSTM-based deep learning model**. The system detects hand landmarks, extracts keypoints, and classifies gestures using a trained LSTM model.  
 
-# 🚀 Features  
+## 🚀 Features  
 - **Hand landmark detection** using MediaPipe  
 - **Real-time gesture recognition** with OpenCV  
 - **LSTM deep learning model** for accurate classification  
 - **Dataset collection & preprocessing** for training  
 - **Custom visualization** of recognition results  
 
-# 🛠️ Project Structure  
+## 🛠️ Project Structure  
 ```bash
 ├── app.py          # Main application for real-time gesture recognition
 ├── trainmodel.py   # Model training script using LSTM
@@ -21,13 +21,13 @@ This project implements a **hand gesture recognition system** using **OpenCV, Me
 ├── model.json      # Saved model architecture
 ├── model.h5        # Trained model weights
 └── README.md       # Project documentation
-```  
+```    
 
 ## 📦 Dependencies  
 Make sure to install the required dependencies before running the project:  
-
-"pip install numpy opencv-python mediapipe tensorflow scikit-learn"
-
+```bash
+pip install numpy opencv-python mediapipe tensorflow scikit-learn
+```  
 
 ## 📊 Dataset Collection  
 - **Image Collection:**  
@@ -44,11 +44,11 @@ Make sure to install the required dependencies before running the project:
 
 ## ▶️ Running the Gesture Recognition  
 To start real-time gesture recognition, run:  
-
+```bash
 python app.py
-
+```  
 
 ## 🔗 Future Improvements  
 - Expand the dataset with more gestures  
 - Improve accuracy with hyperparameter tuning  
-- Deploy as a web or mobile app 
+- Deploy as a web or mobile app  
